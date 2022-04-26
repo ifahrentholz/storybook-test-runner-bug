@@ -1,0 +1,36 @@
+{
+  "name": "storybook-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test-storybook": "test-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "2.3.1",
+    "lit": "2.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@storybook/addon-actions": "^6.5.0-beta.0",
+    "@storybook/addon-essentials": "^6.5.0-beta.0",
+    "@storybook/addon-interactions": "6.4.22",
+    "@storybook/addon-links": "^6.5.0-beta.0",
+    "@storybook/builder-webpack5": "^6.5.0-beta.0",
+    "@storybook/jest": "0.0.10",
+    "@storybook/manager-webpack5": "^6.5.0-beta.0",
+    "@storybook/test-runner": "0.0.7",
+    "@storybook/testing-library": "0.0.11",
+    "@storybook/web-components": "^6.5.0-beta.0",
+    "babel-loader": "^8.2.5",
+    "jest": "^28.0.1",
+    "lit-html": "^2.2.2",
+    "parcel": "2.5.0"
+  }
+}
